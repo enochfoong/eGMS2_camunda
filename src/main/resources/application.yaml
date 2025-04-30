@@ -1,0 +1,14 @@
+# spring.application.name=Process payments
+
+camunda:
+  client:
+    mode: self-managed
+    zeebe:
+      enabled: true
+      # grpc-address: http://127.0.0.1:26500
+      # rest-address: http://127.0.0.1:8080
+      grpc-address: http://192.168.102.231:26500
+      rest-address: http://192.168.102.231:8080
+
+server:
+  port: 8081

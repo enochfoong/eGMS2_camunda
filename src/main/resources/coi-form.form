@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "label": "COI?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1o6uujg",
+        "columns": null
+      },
+      "id": "Field_1bi9vjv",
+      "key": "coi_key"
+    }
+  ],
+  "type": "default",
+  "id": "coi-form",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "schemaVersion": 18
+}

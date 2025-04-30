@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "label": "Accept?",
+      "values": [
+        {
+          "label": "Accept",
+          "value": "accept"
+        },
+        {
+          "label": "Not Accept",
+          "value": "not accept"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_0kltxsj",
+        "columns": null
+      },
+      "id": "Field_14g6864",
+      "key": "accept_key"
+    }
+  ],
+  "type": "default",
+  "id": "rfs-review",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "schemaVersion": 18
+}

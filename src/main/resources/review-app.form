@@ -1,0 +1,29 @@
+{
+  "components": [
+    {
+      "label": "Reviewed?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1o4lej4",
+        "columns": null
+      },
+      "id": "Field_08b8106",
+      "key": "review_complete"
+    }
+  ],
+  "type": "default",
+  "id": "review-app",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "schemaVersion": 18
+}
