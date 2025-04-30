@@ -1,39 +1,47 @@
-# 1. Start project
+## 1. Start project
 
 mvn spring-boot:run
 
-# 2. Bypass CORS issue
+## 2. Bypass CORS issue
 
 start msedge --disable-web-security --user-data-dir="C:\temp\edge-dev"
 
-### Camunda services
+# Camunda services
 
-# Operate
+## Operate
 
-## username: demo, password: demo
+### username: demo, password: demo
 
 http://192.168.102.231:8081/operate
 
-# Task List
+## Task List
 
-## username: demo, password: demo
+### username: demo, password: demo
 
 http://192.168.102.231:8082/tasklist
 
-# Identity
+## Identity
 
-## username: demo, password: demo
+### username: demo, password: demo
 
 http://192.168.102.231:8084/identity
 
-# Keycloak
+## Keycloak
 
-## username: admin, password: admin
+### username: admin, password: admin
 
 http://192.168.102.231:18080/auth
 
-# Start containers on 192.168.102.231
+## Start containers on 192.168.102.231
 
 cd camunda/camunda-platform/
 
 docker-compose start
+
+## Elasticsearch queries
+
+query index list:
+http://192.168.102.231:9200/_cat/indices?v
+
+query an index:
+http://192.168.102.231:9200/zeebe-record_process-instance_8.6.6_2025-04-29/_search?pretty (edited) 
